@@ -1,3 +1,10 @@
+---
+title: method_missing, C style
+layout: default
+---
+
+# `method_missing`, C style
+
 Given: We need to interface to communication in S-expressions. In
 C. We are given a library that does the communication and S-expr
 representation in some C data structure. We expect commands like

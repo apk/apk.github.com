@@ -176,3 +176,11 @@ pre code {white-space: pre;}
 
 pre span.comment {color: #aaa;}
 
+#wrapper {
+  padding: 20px 25px;
+  overflow:hidden;
+  height: auto;
+  width: 920px;
+  margin: -20px auto 0;
+  /* background: url(../images/background-white.png) 0 0 no-repeat; */
+}

@@ -184,3 +184,25 @@ pre span.comment {color: #aaa;}
   margin: -20px auto 0;
   /* background: url(../images/background-white.png) 0 0 no-repeat; */
 }
+
+#footer {
+  position: relative;
+  bottom:0;
+  font-size:13px;
+  color: #636363;
+  margin: 45px 0 0 0;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footer li {
+  list-style: none;
+}
+
+#footer_inner {
+  width:960px;
+  position: relative;
+  margin: 0 auto;
+}

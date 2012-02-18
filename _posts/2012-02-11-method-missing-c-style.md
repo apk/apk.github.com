@@ -18,14 +18,16 @@ Now, doing this based on elementary functions like `sexprIsCons()`
 and `sexprGetCar()` is pretty unwieldy. It would be much nicer to
 simply do
 
-    const char *file;
-    int pos, len;
-    if (fs_ps_get_SII (sx, file, pos, len)) {
-      unsigned char *bp;
-      int blen;
-      get_data (file, pos, len, &bp, &blen); // TODO: error handling
-      return fs_mk_SBy (file, bp, blen);
-    }
+{% highlight c %}
+const char *file;
+int pos, len;
+if (fs_ps_get_SII (sx, file, pos, len)) {
+  unsigned char *bp;
+  int blen;
+  get_data (file, pos, len, &bp, &blen); // TODO: error handling
+  return fs_mk_SBy (file, bp, blen);
+}
+{% endhighlight %}
 
 We'd like to have one function that parses the incoming S-expression
 into some variables, and another to compose the reply. (The `fs_`

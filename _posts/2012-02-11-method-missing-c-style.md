@@ -1,6 +1,7 @@
 ---
 title: method_missing, C style
 layout: default
+excerpt: Doing an analogy of ruby's `method_missing` in C, by extracting identifiers.
 ---
 
 # `method_missing`, C style

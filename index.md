@@ -1,0 +1,18 @@
+---
+title: Blog
+layout: default
+---
+
+<!--- http://orgmode.org/worg/org-tutorials/org-jekyll.html -->
+
+<ul>
+{% for post in site.posts limit: 5 %}
+<div class="post_info">
+<li>
+<a href="{{ post.url }}">{{ post.title }}</a><br>
+<span class="entry-meta">Published: {{ post.date | date: "%B %d, %Y" }}</span>
+</li>
+</br> <em>{{ post.excerpt }} </em>
+</div>
+{% endfor %}
+</ul>

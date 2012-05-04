@@ -127,7 +127,7 @@ proper sequence, and the removal is then done. (I chose the latter one.)
 
 This relatively simple problem very easily gets out of hand in more
 complicated applications, and reasoning about possible deadlocks requires
-knowledge of /all/ the component's synchronization behaviour. As soon
+knowledge of *all* the component's synchronization behaviour. As soon
 as the flow of control traverses in different directions through the
 object graph (which is typical of GUI toolkits) such finegrained
 synchronization becomes practically impossible.

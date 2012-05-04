@@ -19,8 +19,8 @@ testability should greatly affect program design).
 
 So instead I went placing comments like
 
-  /*# BEGIN test1 */
-  /*# END test1 */
+    /*# BEGIN test1 */
+    /*# END test1 */
 
 around the pieces of code that I needed to exercise and later modify,
 and wrote a ruby script to extract exactly those pieces into a file

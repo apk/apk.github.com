@@ -1,57 +1,25 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>apk - {{ page.title }}</title>
-    <link href="/shared/css/the.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="/shared/css/pygments.css" media="screen" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    <div id="main">
-      <div id="wrapper">
-        <div id="content" class="site">
+{{ content }}
 
-          {{ content }}
-
-        </div>
-      </div>
-    </div>
-    <div id="footer">
-      <div id="footer_inner">
-	<div id="sword" style="margin: 0 auto; ">
-          <div align="center">
-            {% if page.previous.url %} 
-              <a href="{{page.previous.url}}"
-                 title="Previous: {{page.previous.title}}">&laquo;
-		{{page.previous.title}}</a> 
-            {% else %}
-               &laquo;
-            {% endif %}
-            &middot;
-            <a href="/" title="Home">&nabla;</a>
-            &middot;
-            {% if page.next.url %} 
-              <a href="{{page.next.url}}"
-                 title="Next: {{page.next.title}}"
-              >{{page.next.title}} &raquo;</a>
-            {% else %}
-               &raquo;
-            {% endif %}
-          </div>
-          <div align="center">
-            <img src="http://images.iocl.org/sword500.jpg">
-          </div>
-          <div align="center">
-	    <a href="https://twitter.com/akrey">@akrey</a>
-          </div>
-          <div align="center">
-	    <a href="/contact.html">Contact</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+<div align="center">
+  {% if page.previous.url %}
+    <a href="{{page.previous.url}}"
+       title="Previous: {{page.previous.title}}">&laquo;
+      {{page.previous.title}}</a>
+  {% else %}
+     &laquo;
+  {% endif %}
+  &middot;
+  <a href="/" title="Home">&nabla;</a>
+  &middot;
+  {% if page.next.url %}
+    <a href="{{page.next.url}}"
+       title="Next: {{page.next.title}}"
+    >{{page.next.title}} &raquo;</a>
+  {% else %}
+     &raquo;
+  {% endif %}
+</div>

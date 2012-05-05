@@ -1,6 +1,6 @@
 ---
 title: synchronized is hard
-layout: default
+layout: post
 excerpt: How thinking multithreaded isn't easy, and doesn't scale.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: strange unit testing
-layout: default
+layout: post
 excerpt: Unit testing legacy code.
 ---
 

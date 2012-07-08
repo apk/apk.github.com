@@ -56,7 +56,7 @@ Client and server also regularly send beacon packets to each other,
 and will only send data packets when they recently received something
 from the other side. This avoids sending data and thus filling the
 bloat buffers when the channel isn't open at the moment. While the
-client continues indefinitely to send beacons the server only Ldoes so
+client continues indefinitely to send beacons the server only does so
 for a short time when not hearing from the client. This avoids sending
 packets to a client address when the client has lost its network
 session and the address may already have been reassigned to someone

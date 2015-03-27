@@ -7,10 +7,10 @@ html {
 }
 
 body {
-  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  font: 14px helvetica,arial,freesans,clean,sans-serif;
   line-height: 1.4em;
-  background-color: #fff;
-  color: #393939;
+  background-color: #000;
+  color: #00ff00;
   margin: 0px;
   padding: 0px;
   height: 100%;
@@ -21,8 +21,8 @@ p {
 }
 
 h1 {
-  font-size: 20px;
-  border-bottom: 1px solid #cccccc;
+  font-size: 24px;
+  border-bottom: 1px solid #00ff00;
   padding: .5em 0;
   margin: 2em 0 1em;
 }
@@ -176,21 +176,40 @@ pre code {white-space: pre;}
 
 pre span.comment {color: #aaa;}
 
+#outer {
+  /* This should have been to put the footer at the bottom,
+   * but that requires setting same to an absolute size. Yuck.
+   */
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+}
+
+#main {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
 #wrapper {
   padding: 20px 25px;
-  overflow:hidden;
-  height: auto;
-  width: 920px;
-  margin: -20px auto 0;
+  margin: -10px auto 0;
   /* background: url(../images/background-white.png) 0 0 no-repeat; */
+}
+
+#headimg {
+  display: block;
+  margin: 0 auto;
+  overflow:hidden;
 }
 
 #footer {
   position: relative;
-  bottom:0;
-  font-size:13px;
-  color: #636363;
-  margin: 45px 0 0 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  margin: 45px auto 0;
 }
 
 #footer a:hover {
@@ -199,10 +218,4 @@ pre span.comment {color: #aaa;}
 
 #footer li {
   list-style: none;
-}
-
-#footer_inner {
-  width:960px;
-  position: relative;
-  margin: 0 auto;
 }

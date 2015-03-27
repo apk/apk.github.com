@@ -1,4 +1,3 @@
-
 ---
 title: bytestream over udp for mobile
 layout: post

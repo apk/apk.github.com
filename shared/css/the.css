@@ -25,6 +25,7 @@ h1 {
   border-bottom: 1px solid #00ff00;
   padding: .5em 0;
   margin: 2em 0 1em;
+  color: #6f0;
 }
 
 h1:first-child {
@@ -33,7 +34,7 @@ h1:first-child {
 
 h2 {
   font-size: 16px;
-  color: #333;
+  color: #6f0;
   margin: 2em auto 1em;
 }
 
@@ -43,7 +44,7 @@ h2 span.step {
 
 h3 {
   font-size: 14px;
-  color: #333;
+  color: #6f0;
   margin: 1.5em 0 .5em;
 }
 
@@ -53,12 +54,15 @@ h5 {
 
 h6 {
   font-size: 13px;
-  color: #666;
 }
 
 a {
-  color: #4183C4;
+  color: #cf0;
   text-decoration: none;
+}
+
+a:hover {
+  color: #cf0;
 }
 
 a:hover,
@@ -124,15 +128,15 @@ a img {
 .content ul code,
 p code {
   font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-  color: #52595d;
+  color: #dddddd;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
+  border: 1px solid #066;
+  background-color: #002020;
   padding: 0px 3px;
   display: inline-block;
 }
@@ -152,7 +156,7 @@ p code {
 code {white-space: nowrap;}
 
 pre {
-  border: 1px solid #cacaca;
+  border: 1px solid #066;
   line-height: 1.2em;
   font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
   padding: 10px;
@@ -164,7 +168,7 @@ pre {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background-color: #002020;
-  color: #393939;
+  color: #dddddd;
   margin: 0px;
 }
 
@@ -210,10 +214,6 @@ pre span.comment {color: #aaa;}
   width: 100%;
   font-size: 14px;
   margin: 45px auto 0;
-}
-
-#footer a:hover {
-  text-decoration: underline;
 }
 
 #footer li {

@@ -56,6 +56,20 @@ h6 {
   font-size: 13px;
 }
 
+.lnk a {
+  color: #ccff00;
+  text-decoration: none;
+}
+
+.lnk a:hover {
+  color: black;
+}
+
+.undec {
+  text-decoration: none;
+  color: black;
+}
+
 a {
   color: #cf0;
   text-decoration: none;

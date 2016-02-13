@@ -216,12 +216,6 @@ pre span.comment {color: #aaa;}
   /* background: url(../images/background-white.png) 0 0 no-repeat; */
 }
 
-#headimg {
-  display: block;
-  margin: 0 auto;
-  overflow:hidden;
-}
-
 #footer {
   position: relative;
   bottom: 0;

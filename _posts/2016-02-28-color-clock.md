@@ -24,11 +24,11 @@ labeling</a> or ribbon cable coloring.
 </tr></table>
 
 The one interesting thing is what many clocks that display seconds
-get wrong: They just update about once in a second by they don't
+get wrong: They just update about once in a second but don't
 even try to do the update on the second. Effect: multiple instances
 drift with respect to each other (and to the actual seconds),
 and occasionally wil do a two-second step (when slow) or not
-step in a second (if fast, unusual).
+step in a second (if fast, quite unusual).
 
 The fix:
 {% highlight javascript %}
@@ -44,6 +44,7 @@ The background color around the 'digits' (and the entire background
 on the original <a href="//apk.li/c">page</a> - fullscreen and enjoy)
 is set as it is on
 <a href="http://whatcolourisit.scn9a.org/">whatcolourisit.scn9a.org</a>
+(dead)
 which inspired me to this clock in the first place. That page also displays
 the second drift - just open both pages side by side to see that.
 

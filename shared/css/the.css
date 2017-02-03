@@ -8,12 +8,7 @@ html {
 
 body.blog {
   /* font: 14px helvetica,arial,freesans,clean,sans-serif; */
-  font-family: sans-serif;
-  line-height: 1.4em;
   background-color: #010;
-  color: #00ff00;
-  /* margin: 0px;
-  padding: 0px; */
   height: 100%;
 }
 

@@ -10,13 +10,13 @@ Some people seem to assume that tor relays push a constant amount
 of traffic, but this is far from the truth. Each client individually
 decides which relays to use, and the sum is something pretty noisy.
 
-<div align='center'><img src='/images/f-trfl-345600s.png'></div>
+<div align='center'><img class='greenframe' src='/images/f-trfl-345600s.png'></div>
 
 This is the traffic on my faster relay (set to 7MB), and the
 actual traffic is still ragged, and has some longer-term
 excursions. It is new, and just became a guard node.
 
-<div align='center'><img src='/images/q-trfl-345600s.png'></div>
+<div align='center'><img class='greenframe' src='/images/q-trfl-345600s.png'></div>
 
 This is the other one, with a traffic limit five times lower,
 more that correspondingly less traffic, and because there are

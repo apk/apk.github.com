@@ -6,7 +6,7 @@ excerpt: what cameras do these days
 
 # Not the sun
 
-<div align='center'><img src='/images/darksun.jpg' style='border: 1px solid darkgreen;'></div>
+<div align='center'><img class='greenframe' src='/images/darksun.jpg'></div>
 
 This image is not quite what it seems, but it is difficult to ask what is wrong with
 it without giving the solution away. The object in the upper right causing the severe

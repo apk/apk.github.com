@@ -15,7 +15,7 @@ four months after it was moved from the previous host, and
 the rise itself took three weeks. Since the it is at about
 one MByte/s which match the other relay's rate.
 
-<div align='center'><img src='/images/r-trfl-22118400s.png'></div>
+<div align='center'><img class='greenframe' src='/images/r-trfl-22118400s.png'></div>
 
 No specific explanation as to why. (The entire graph goes from
 mid of may '16 to end of january '17; gnuplot botches the legend

@@ -12,6 +12,10 @@ body.blog {
   height: 100%;
 }
 
+img.greenframe {
+  border: 1px solid darkgreen;
+}
+
 p {
   margin: 1em 0;
 }
@@ -120,7 +124,6 @@ a img {
   -moz-box-shadow: 1px 1px 3px #ddd;
   box-shadow: 1px 1px 3px #ddd;
 }
-
 
 .content .description {
   margin-left: 20px;

@@ -6,10 +6,10 @@ html {
   height:100%;
 }
 
-body.blog {
+body#blog {
   /* font: 14px helvetica,arial,freesans,clean,sans-serif; */
   background-color: #010;
-  height: 100%;
+  // Scrollbar bug, and no apparent reason d'etre...: height: 100%;
 }
 
 img.greenframe {
